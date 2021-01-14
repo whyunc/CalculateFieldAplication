@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10sp"
+        />
+
+    <Button
+        android:id="@+id/btnSquare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/square"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:padding="10dp"
+        />
+    <Button
+        android:id="@+id/btnRectangle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rectangle"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:padding="10dp"
+        />
+    <Button
+        android:id="@+id/btnTriangle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/triangle"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:padding="10dp"
+        />
+    <Button
+        android:id="@+id/btnRound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/round"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:padding="10dp"
+        />
+
+
+
+</LinearLayout>

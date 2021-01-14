@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CalculateFieldAplication</string>
+    <string name="welcome">WELCOME </string>
+    <string name="start">Choose one to calculate</string>
+    <string name="square">Square</string>
+    <string name="rectangle">rectangle</string>
+    <string name="triangle">triangle</string>
+    <string name="round">round</string>
+    <string name="square_calculate">Square Calculate</string>
+    <string name="panjang">Panjang</string>
+    <string name="lebar">Lebar</string>
+    <string name="hitung">Hitung</string>
+    <string name="hasil">HASIL</string>
+    <string name="triangle_calculate">Triangle Calculate</string>
+    <string name="rectangle_calculate">Rectangle Calculate</string>
+    <string name="alas">Alas</string>
+    <string name="tinggi">Tinggi</string>
+</resources>
